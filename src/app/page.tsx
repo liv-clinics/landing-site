@@ -42,7 +42,7 @@ export default function Home() {
       <nav className="fixed w-full bg-white/80 backdrop-blur-md z-50 border-b">
         <div className="container mx-auto px-4 h-16 flex items-center justify-between">
           <div className="flex items-center space-x-4">
-            <div className="relative w-10 h-10 rounded-full overflow-hidden">
+            <div className="relative w-32 h-10">
               <Image
                 src={`${basePath}/logo.jpg`}
                 alt="After Liv Clinics Logo"
@@ -539,7 +539,7 @@ export default function Home() {
             {/* Brand Section */}
             <div>
               <div className="flex items-center space-x-4 mb-6">
-                <div className="relative w-10 h-10 rounded-full overflow-hidden">
+                <div className="relative w-32 h-10">
                   <Image
                     src={`${basePath}/logo.jpg`}
                     alt="After Liv Clinics Logo"
