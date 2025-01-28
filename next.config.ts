@@ -2,7 +2,7 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   output: 'export',
-  basePath: 'landing-site',
+  basePath: '/landing-site',
   images: {
     remotePatterns: [
       {
