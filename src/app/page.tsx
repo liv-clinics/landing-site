@@ -33,6 +33,8 @@ export const metadata = {
   keywords: ['healthcare', 'medical clinic', 'affordable healthcare', 'tier 2 cities', 'tier 3 cities', 'India healthcare'],
 };
 
+const basePath = '/landing-site';
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-white">
@@ -42,7 +44,7 @@ export default function Home() {
           <div className="flex items-center space-x-4">
             <div className="relative w-10 h-10 rounded-full overflow-hidden">
               <Image
-                src="/logo.jpg"
+                src={`${basePath}/logo.jpg`}
                 alt="After Liv Clinics Logo"
                 fill
                 className="object-cover"
@@ -82,7 +84,7 @@ export default function Home() {
       <section className="relative min-h-[90vh] flex items-center pt-16 bg-gradient-to-br from-blue-50 via-white to-blue-50">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/heroBg.png"
+            src={`${basePath}/heroBg.png`}
             alt="Medical professionals"
             fill
             className="object-cover opacity-10"
@@ -110,7 +112,7 @@ export default function Home() {
             </div>
             <div className="relative aspect-video rounded-2xl overflow-hidden shadow-2xl">
               <Image
-                src="/img.png"
+                src={`${basePath}/img.png`}
                 alt="Modern medical facility"
                 fill
                 className="object-cover"
@@ -283,31 +285,31 @@ export default function Home() {
                 icon: <Stethoscope className="w-6 h-6" />,
                 title: "Qualified Medical Health Practitioner",
                 description: "Our clinics are staffed by qualified medical health practitioners who are experts in their field.",
-                image: "/qual.png"
+                image: basePath+"/qual.png"
               },
               {
                 icon: <Hospital className="w-6 h-6" />,
                 title: "Affordable Healthcare",
                 description: "We offer a wide range of affordable healthcare services, including consultations, daycare, and more.",
-                image: "/afford.png"
+                image: basePath+"/afford.png"
               },
               {
                 icon: <Database className="w-6 h-6" />,
                 title: "Digital Health Records",
                 description: "We use a digital health record management system to ensure that your health information is always up-to-date and secure.",
-                image: "/digital.png"
+                image: basePath+"/digital.png"
               },
               {
                 icon: <Award className="w-6 h-6" />,
                 title: "NABH Accredited",
                 description: "Our clinics are NABH accredited, which means that we meet the highest standards of quality and safety.",
-                image: "/nabh.png"
+                image: basePath+"/nabh.png"
               },
               {
                 icon: <ClipboardCheck className="w-6 h-6" />,
                 title: "Latest Technology",
                 description: "We use the latest technology to provide our patients with the best possible care.",
-                image: "/tech.png"
+                image: basePath+"/tech.png"
               }
             ].map((service, index) => (
               <Card key={index} className="overflow-hidden group">
@@ -452,15 +454,15 @@ export default function Home() {
             {[
               {
                 name: "Indian Medical Association",
-                image: "/ima.jpg"
+                image: basePath+"/ima.jpg"
               },
               {
                 name: "Indian Healthcare Federation",
-                image: "/nathealth-logo.webp"
+                image: basePath+"/nathealth-logo.webp"
               },
               {
                 name: "Indian Dental Association",
-                image: "/ida.png"
+                image: basePath+"/ida.png"
               }
             ].map((partner, index) => (
               <Card key={index} className="group hover:shadow-lg transition-shadow">
@@ -518,7 +520,7 @@ export default function Home() {
                 </div>
                 <div className="relative h-64 rounded-lg overflow-hidden">
                   <Image
-                    src="/contact.png"
+                    src={`${basePath}/contact.png`}
                     alt="Contact us"
                     fill
                     className="object-cover"
@@ -539,7 +541,7 @@ export default function Home() {
               <div className="flex items-center space-x-4 mb-6">
                 <div className="relative w-10 h-10 rounded-full overflow-hidden">
                   <Image
-                    src="/logo.jpg"
+                    src={`${basePath}/logo.jpg`}
                     alt="After Liv Clinics Logo"
                     fill
                     className="object-cover"
