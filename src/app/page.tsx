@@ -2,24 +2,16 @@
 import Image from 'next/image';
 import { 
   Hospital, 
-  Users, 
   ClipboardCheck, 
-  Phone, 
   Mail, 
   MapPin, 
   Award, 
   Heart, 
   Stethoscope, 
   Database,
-  Facebook,
-  Twitter,
-  Linkedin,
-  Instagram,
   Menu,
-  CheckCircle,
   ArrowRight,
   CheckCircle2,
-  Lightbulb,
   Compass,
   HeartHandshake,
   Shield,
@@ -27,7 +19,6 @@ import {
 } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card";
-import { Separator } from "@/components/ui/separator";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 
 // SEO Metadata
