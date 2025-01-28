@@ -1,12 +1,15 @@
-import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
-import './globals.css'
+// app/layout.tsx
+import "./globals.css"
+import type { Metadata } from "next"
+import { ThemeProvider } from "next-themes"
+import { Inter } from "next/font/google"
+// import { ThemeProvider } from "@/components/provider"
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: 'After Liv Clinics',
-  description: 'Quality and Affordable Healthcare in Tier 2 & 3 Cities',
+  title: "After Liv Clinics",
+  description: "Quality Healthcare in Tier 2 & 3 Cities",
 }
 
 export default function RootLayout({
@@ -15,8 +18,18 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className="scroll-smooth">
-      <body className={inter.className}>{children}</body>
+    <html lang="en" className="light" suppressHydrationWarning>
+      <body className={`${inter.className} min-h-screen bg-background font-sans antialiased`}>
+        <ThemeProvider 
+          attribute="class" 
+          defaultTheme="light" 
+          enableSystem={false}
+          forcedTheme="light"
+          disableTransitionOnChange
+        >
+          {children}
+        </ThemeProvider>
+      </body>
     </html>
   )
 }
