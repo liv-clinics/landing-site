@@ -58,7 +58,7 @@ export default function Home() {
             <a href="#about" className="text-gray-600 hover:text-blue-600 transition-colors">About</a>
             <a href="#services" className="text-gray-600 hover:text-blue-600 transition-colors">Services</a>
             <a href="#contact" className="text-gray-600 hover:text-blue-600 transition-colors">Contact</a>
-            <Button>Book Appointment</Button>
+            {/* <Button>Book Appointment</Button> */}
           </div>
 
           {/* Mobile Navigation */}
@@ -73,7 +73,7 @@ export default function Home() {
                 <a href="#about" className="text-lg">About</a>
                 <a href="#services" className="text-lg">Services</a>
                 <a href="#contact" className="text-lg">Contact</a>
-                <Button className="w-full">Book Appointment</Button>
+                {/* <Button className="w-full">Book Appointment</Button> */}
               </nav>
             </SheetContent>
           </Sheet>
@@ -102,13 +102,13 @@ export default function Home() {
                 Making quality healthcare accessible to everyone in tier 2 and tier 3 cities/towns, 
                 regardless of their location or financial status.
               </p>
-              <div className="flex flex-wrap gap-4">
+              {/* <div className="flex flex-wrap gap-4">
                 <Button size="lg" className="gap-2 group">
                   Book Appointment
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </Button>
                 <Button size="lg" variant="outline">Learn More</Button>
-              </div>
+              </div> */}
             </div>
             <div className="relative aspect-video rounded-2xl overflow-hidden shadow-2xl">
               <Image
@@ -505,7 +505,7 @@ export default function Home() {
                     </div>
                     <div>
                       <p className="font-semibold text-gray-900">Email</p>
-                      <p className="text-gray-600">contact@afterlivclinics.com</p>
+                      <p className="text-gray-600">contact@livhealthcare.in</p>
                     </div>
                   </div>
                   <div className="flex items-center space-x-4">
