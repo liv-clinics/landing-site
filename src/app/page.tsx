@@ -10,7 +10,6 @@ import {
   Stethoscope, 
   Database,
   Menu,
-  ArrowRight,
   CheckCircle2,
   Compass,
   HeartHandshake,
