@@ -23,10 +23,10 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 
 // SEO Metadata
 export const metadata = {
-  title: 'After Liv Clinics - Quality Healthcare in Tier 2 & 3 Cities',
+  title: 'Liv Clinics - Quality Healthcare in Tier 2 & 3 Cities',
   description: 'Quality, affordable, and accessible medical clinics in tier 2 and tier 3 cities/towns',
   openGraph: {
-    title: 'After Liv Clinics',
+    title: 'Liv Clinics',
     description: 'Quality Healthcare in Tier 2 & 3 Cities',
     images: ['/og-image.jpg'],
   },
@@ -45,12 +45,12 @@ export default function Home() {
             <div className="relative w-32 h-10">
               <Image
                 src={`${basePath}/logo.jpg`}
-                alt="After Liv Clinics Logo"
+                alt="Liv Clinics Logo"
                 fill
                 className="object-cover"
               />
             </div>
-            <span className="font-bold text-xl text-gray-900">After Liv Clinics</span>
+            <span className="font-bold text-xl text-gray-900">Liv Clinics</span>
           </div>
           
           {/* Desktop Navigation */}
@@ -127,7 +127,7 @@ export default function Home() {
         <div className="container mx-auto px-4">
           {/* Header */}
           <div className="max-w-3xl mx-auto text-center mb-16">
-            <h2 className="text-3xl font-bold mb-4">About After Liv Clinics</h2>
+            <h2 className="text-3xl font-bold mb-4">About Liv Clinics</h2>
             <p className="text-muted-foreground">
               Making quality healthcare accessible to everyone, regardless of their location.
             </p>
@@ -388,7 +388,7 @@ export default function Home() {
       </section>
 
       {/* Testimonials Section */}
-      <section className="py-24 bg-muted">
+     {/* <section className="py-24 bg-muted">
         <div className="container mx-auto px-4">
           <div className="max-w-2xl mx-auto text-center mb-16">
             <h2 className="text-3xl font-bold mb-4">Patient Testimonials</h2>
@@ -398,7 +398,7 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-8">
             {[
               {
-                content: "I was so impressed with the care I received at After Liv Clinics. The doctor was very knowledgeable and compassionate, and the staff was friendly and helpful.",
+                content: "I was so impressed with the care I received at Liv Clinics. The doctor was very knowledgeable and compassionate, and the staff was friendly and helpful.",
                 author: "Rahul Sharma",
                 location: "Kanpur",
                 image: "https://placehold.co/100x100/png"
@@ -440,7 +440,7 @@ export default function Home() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Industry Partners */}
       <section className="py-24">
@@ -542,12 +542,12 @@ export default function Home() {
                 <div className="relative w-32 h-10">
                   <Image
                     src={`${basePath}/logo.jpg`}
-                    alt="After Liv Clinics Logo"
+                    alt="Liv Clinics Logo"
                     fill
                     className="object-cover"
                   />
                 </div>
-                <span className="font-bold text-xl">After Liv Clinics</span>
+                <span className="font-bold text-xl">Liv Clinics</span>
               </div>
               <p className="text-gray-600">
                 Your path to better quality and affordable healthcare in tier 2 and tier 3 cities.
@@ -601,7 +601,7 @@ export default function Home() {
           {/* Copyright */}
           <div className="border-t py-8">
             <p className="text-center text-gray-600">
-              &copy; {new Date().getFullYear()} After Liv Clinics. All rights reserved.
+              &copy; {new Date().getFullYear()} Liv Clinics. All rights reserved.
             </p>
           </div>
         </div>
